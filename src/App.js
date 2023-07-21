@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Main from "./components/main";
+import EntityService from "./service/entityAuth";
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { getEntitySuccess } from "./slice/entity";
+import EntityCard from "./components/entityCard";
+import EditEntity from "./components/editEntity";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container mt-2 pb-5">
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/entity/:id" element={<EntityCard />} />
+        {/* <Route path="/edit/:id" element={<EditEntity />} /> */}
+      </Routes>
     </div>
   );
 }
