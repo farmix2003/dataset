@@ -17,6 +17,24 @@
         "y": 21
       },
       "labels": ["labelC", "labelD"]
+    },
+    {
+      "id": 3,
+      "name": "Entity3",
+      "coordinate": {
+        "x": 8,
+        "y": 5
+      },
+      "labels": ["labelA", "labelC"]
+    },
+    {
+      "id": 4,
+      "name": "Entity4",
+      "coordinate": {
+        "x": 3,
+        "y": 10
+      },
+      "labels": ["labelA", "labelC"]
     }
   ]
 }
