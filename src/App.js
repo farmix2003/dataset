@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/entity/:id" element={<EntityCard />} />
-        {/* <Route path="/edit/:id" element={<EditEntity />} /> */}
+        <Route path="/edit/:id" element={<EditEntity />} />
       </Routes>
     </div>
   );
