@@ -13,8 +13,8 @@
       "id": 2,
       "name": "Entity2",
       "coordinate": {
-        "x": 14,
-        "y": 21
+        "x": 3,
+        "y": 6
       },
       "labels": ["labelC", "labelD"]
     },
@@ -22,8 +22,8 @@
       "id": 3,
       "name": "Entity3",
       "coordinate": {
-        "x": 8,
-        "y": 5
+        "x": 4,
+        "y": -1
       },
       "labels": ["labelA", "labelC"]
     },
@@ -31,10 +31,10 @@
       "id": 4,
       "name": "Entity4",
       "coordinate": {
-        "x": 3,
-        "y": 10
+        "x": 10,
+        "y": -9
       },
-      "labels": ["labelA", "labelC"]
+      "labels": ["labelB", "labelC", "labelD"]
     }
   ]
 }
